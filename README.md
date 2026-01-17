@@ -23,7 +23,7 @@ A production-ready ERP system designed for small to medium businesses, featuring
 - **Multi-layer Security** (RLS, RBAC, LBAC)
 - **Real-time Updates** via WebSockets
 - **Professional PDF/Excel** exports
-- **FBR Tax Compliance** for Pakistani businesses
+- **Tax Compliance** with automated tax reports
 
 ---
 
@@ -82,7 +82,7 @@ Visit [http://localhost:3000](http://localhost:3000) to see the application.
 1. Create a Supabase project
 2. Run the schema migration:
    ```bash
-   # Copy the SQL from supabase/migrations/00000000000000_remote_schema.sql
+   # Copy the SQL from supabase/migrations/business-erp-system.sql
    # Run it in your Supabase SQL editor
    ```
 3. Verify tables and functions are created

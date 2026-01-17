@@ -226,7 +226,7 @@ The Business-ERP-Software system is a comprehensive, full-stack enterprise resou
 4. **Payment Vouchers** - Vendor payment processing
 
 #### Features
-- Vendor master data with NTN tracking
+- Vendor master data with Tax ID tracking
 - Purchase order management
 - GRN with quality inspection
 - Automatic vendor bill creation
@@ -284,7 +284,7 @@ The Business-ERP-Software system is a comprehensive, full-stack enterprise resou
   - Balance Sheet
   - Account Ledgers
   - Transaction Registers
-- **FBR Tax Reports**:
+- **Tax Reports**:
   - Sales Tax Monthly Return
   - Withholding Tax (WHT) Return
 - **Automated GL Posting** for all transactions
@@ -307,8 +307,8 @@ The Business-ERP-Software system is a comprehensive, full-stack enterprise resou
   - `get_trial_balance()` - Trial balance calculation
   - `get_trial_balance_as_of()` - Historical trial balance
   - `get_account_ledger()` - Account transaction details
-  - `get_sales_tax_report()` - FBR sales tax report
-  - `get_wht_report()` - FBR WHT report
+  - `get_sales_tax_report()` - Sales tax report
+  - `get_wht_report()` - WHT report
 - **Files**:
   - `app/(dashboard)/dashboard/accounting/chart-of-accounts/page.tsx`
   - `app/(dashboard)/dashboard/accounting/journal-entries/page.tsx`
@@ -351,13 +351,13 @@ All transactions automatically create journal entries:
 **Priority**: MEDIUM
 
 #### Features
-- Employee master data with CNIC
+- Employee master data with Employee ID
 - Attendance tracking (check-in/check-out)
 - Leave management (request, approval, balance tracking)
 - Advances and loans
 - Payroll processing with automatic calculations
 - Professional payslip PDFs
-- Deductions (Income tax, EOBI)
+- Deductions (Income tax, Social Security)
 - Allowances and bonuses
 
 #### Technical Implementation
@@ -386,7 +386,7 @@ All transactions automatically create journal entries:
 
 #### Payroll Calculation
 - Basic salary + allowances = Gross salary
-- Deductions: Income tax (if > threshold), EOBI, advances
+- Deductions: Income tax (if > threshold), Social Security, advances
 - Net salary = Gross - Deductions
 - Automatic GL posting (Salary expense, Cash/Bank)
 
@@ -476,7 +476,7 @@ All transactions automatically create journal entries:
 - **Sales**: Sales summary, customer aging, product analysis, tax register
 - **Procurement**: Purchase summary, vendor aging, WHT register
 - **Accounting**: Trial balance, P&L, balance sheet, ledgers, registers
-- **Tax**: Sales tax return (FBR), WHT return (FBR)
+- **Tax**: Sales tax return, WHT return
 - **HR**: Payroll summary, attendance, leave balance, advances
 - **Fleet**: Trip history, fuel consumption, maintenance, variances
 
@@ -637,7 +637,7 @@ All tables have RLS policies:
 ### Export & Reporting
 - **Universal Excel Export**: All reports exportable
 - **Professional PDFs**: Invoices, POs, payslips
-- **FBR Tax Reports**: Tax compliance
+- **Tax Reports**: Tax compliance
 - **Print Layouts**: All documents print-ready
 
 ---
@@ -834,7 +834,7 @@ The Business-ERP-Software system is a **fully functional, production-ready** ent
 - ✅ **Complete sales pipeline** from quote to cash
 - ✅ **Fleet management** with GPS and variance tracking
 - ✅ **Mobile PWA** with offline capabilities
-- ✅ **FBR tax compliance**
+- ✅ **Tax compliance**
 - ✅ **Professional exports** (Excel, PDF)
 - ✅ **Multi-layer security** (RBAC, LBAC, RLS)
 - ✅ **Modern tech stack** (Next.js 16, Supabase)

@@ -249,7 +249,7 @@ The Business ERP System provides comprehensive business management capabilities 
 8. AP balance updated
 
 ### Vendor Management
-- **Vendor Master**: NTN, address, contact details
+- **Vendor Master**: Tax ID, address, contact details
 - **Credit Terms**: Payment terms tracking
 - **Aging Reports**: Track payables
 - **Payment History**: Complete payment tracking
@@ -260,7 +260,7 @@ The Business ERP System provides comprehensive business management capabilities 
 - WHT calculation based on vendor type
 - Cost layer creation for FIFO tracking
 - Real-time vendor balance updates
-- FBR-compliant WHT reporting
+- Tax-compliant WHT reporting
 
 ---
 
@@ -305,18 +305,18 @@ The Business ERP System provides comprehensive business management capabilities 
 
 ### Tax Compliance
 
-#### Sales Tax Return (FBR)
+#### Sales Tax Return
 - Monthly sales tax calculation
 - Output tax from sales
 - Input tax from purchases
 - Net tax payable/receivable
-- Excel export for FBR submission
+- Excel export for tax submission
 
-#### Withholding Tax Return (FBR)
+#### Withholding Tax Return
 - WHT deducted from vendor payments
 - Vendor-wise breakdown
 - Tax type classification
-- Excel export for FBR submission
+- Excel export for tax submission
 
 ### Automated GL Posting
 
@@ -354,7 +354,7 @@ All transactions automatically create journal entries:
 - Double-entry accounting enforced
 - Real-time balance updates via triggers
 - Historical reporting with as-of-date queries
-- FBR-compliant tax reports
+- Tax-compliant reports
 - Complete audit trail
 
 ---
@@ -362,7 +362,7 @@ All transactions automatically create journal entries:
 ## 👥 8. Human Resources & Payroll
 
 ### Employee Management
-- **Employee Master**: CNIC, contact, designation, department
+- **Employee Master**: Employee ID, contact, designation, department
 - **Salary Structure**: Basic salary, allowances, deductions
 - **Commission Tracking**: Sales-based commission calculation
 - **Document Management**: Employee documents and certificates
@@ -390,7 +390,7 @@ All transactions automatically create journal entries:
 
 #### Payroll Calculation
 - Basic Salary + Allowances = Gross Salary
-- Deductions: Income Tax, EOBI, Advances, Loans
+- Deductions: Income Tax, Social Security, Advances, Loans
 - Net Salary = Gross - Deductions
 
 #### Payroll Workflow
@@ -514,7 +514,7 @@ All transactions automatically create journal entries:
 - Transaction Registers
 - Bank Reconciliation
 
-### Tax Reports (FBR Compliant)
+### Tax Reports
 - Sales Tax Monthly Return
 - Withholding Tax Return
 - Tax Summary Reports
@@ -648,8 +648,7 @@ Mobile POS and fleet modules work offline, critical for field operations.
 ### 3. Automated Accounting
 All transactions automatically post to GL, eliminating manual journal entries.
 
-### 4. FBR Tax Compliance
-Built-in tax reports for Pakistani tax compliance (Sales Tax, WHT).
+Built-in tax reports for tax compliance (Sales Tax, WHT).
 
 ### 5. Multi-location Support
 True multi-location inventory and access control, not just filtering.
@@ -680,7 +679,7 @@ PDF generation for invoices, POs, payslips with professional formatting.
 - **Reduce fuel costs** with variance tracking
 
 ### Compliance
-- **FBR tax compliance** with automated reports
+- **Tax compliance** with automated reports
 - **Audit trail** for all transactions
 - **Role-based access** for data security
 - **Document management** for record keeping

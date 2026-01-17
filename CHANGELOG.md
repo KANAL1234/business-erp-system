@@ -18,7 +18,7 @@ This release marks the system as production-ready with complete accounting integ
 - **Real-time Account Balances** with trigger-based updates
 - **Trial Balance as of Date** - Historical balance reporting
 - **Improved Aging Reports** - Customer and vendor aging with better accuracy
-- **FBR Tax Reports** - Sales Tax and WHT returns for Pakistani tax compliance
+- **Tax Reports** - Sales Tax and WHT returns for tax compliance
 
 #### Sales & Invoicing
 - **Unified Invoice System** - POS sales automatically sync to customer invoices
@@ -38,7 +38,7 @@ This release marks the system as production-ready with complete accounting integ
 - **Universal Excel Export** - All reports exportable to Excel with formatting
 - **Professional PDF Generation** - Invoices, POs, payslips with branding
 - **Print-optimized Layouts** - All documents print-ready
-- **FBR Tax Reports** - Compliant with Pakistani tax requirements
+- **Tax Reports** - Compliant with tax requirements
 
 #### Fleet Management
 - **Complete Fleet Module** - Vehicles, drivers, trips, fuel, maintenance
@@ -67,7 +67,7 @@ This release marks the system as production-ready with complete accounting integ
 ## [1.5.0] - 2025-12-20
 
 ### Added
-- FBR tax reports (Sales Tax, WHT)
+- Tax reports (Sales Tax, WHT)
 - UI/UX polish across all modules
 - Professional document templates
 - Email templates (planned)
