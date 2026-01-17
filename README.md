@@ -27,28 +27,6 @@ A production-ready ERP system designed for small to medium businesses, featuring
 
 ---
 
-## 📸 Screenshots
-
-> **Note**: Add screenshots of your application here. Recommended screenshots:
-> - Dashboard with analytics
-> - POS interface
-> - Inventory management
-> - Sales invoice
-> - Accounting reports
-> - Mobile PWA interface
-
-```
-docs/screenshots/
-├── dashboard.png
-├── pos-interface.png
-├── inventory-management.png
-├── sales-invoice.png
-├── accounting-reports.png
-└── mobile-pwa.png
-```
-
----
-
 ## 🚀 Quick Start
 
 ### Prerequisites
